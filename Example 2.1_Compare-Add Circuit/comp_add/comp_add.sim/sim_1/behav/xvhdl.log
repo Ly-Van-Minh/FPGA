@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Documents/FPGA/Example 2.1_Compare-Add Circuit/comp_add/comp_add.srcs/sources_1/new/comp_add.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comp_add
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Documents/FPGA/Example 2.1_Compare-Add Circuit/comp_add/comp_add.srcs/sim_1/new/tb_comp_add.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_comp_add

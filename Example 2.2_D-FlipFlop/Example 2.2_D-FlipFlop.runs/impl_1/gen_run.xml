@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1601740937">
+  <File Type="ROUTE-PWR-RPX" Name="d_flipflop_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="d_flipflop.tcl"/>
+  <File Type="INIT-TIMING" Name="d_flipflop_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="d_flipflop_methodology_drc_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="d_flipflop_drc_pwropted.rpt"/>
+  <File Type="RDI-RDI" Name="d_flipflop.vdi"/>
+  <File Type="OPT-DCP" Name="d_flipflop_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="d_flipflop.hwdef"/>
+  <File Type="OPT-DRC" Name="d_flipflop_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="d_flipflop_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="d_flipflop_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="d_flipflop_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="d_flipflop_placed.dcp"/>
+  <File Type="PLACE-IO" Name="d_flipflop_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="d_flipflop_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="d_flipflop_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="d_flipflop_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="d_flipflop_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="d_flipflop_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="d_flipflop_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="d_flipflop_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="d_flipflop_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="d_flipflop_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="d_flipflop_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="d_flipflop_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="d_flipflop_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="d_flipflop_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="d_flipflop_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="d_flipflop_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="d_flipflop_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="d_flipflop_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="d_flipflop_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="d_flipflop.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="d_flipflop_methodology_drc_routed.rpt"/>
+  <File Type="BG-DRC" Name="d_flipflop.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="d_flipflop_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="d_flipflop.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="d_flipflop_methodology_drc_routed.pb"/>
+  <File Type="BG-BGN" Name="d_flipflop.bgn"/>
+  <File Type="ROUTE-PWR" Name="d_flipflop_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="d_flipflop_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="d_flipflop_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="d_flipflop_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="d_flipflop_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="d_flipflop_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="d_flipflop_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="d_flipflop_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="d_flipflop_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="d_flipflop_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="d_flipflop_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="d_flipflop_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="d_flipflop_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="d_flipflop_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="d_flipflop.bit"/>
+  <File Type="BITSTR-RBT" Name="d_flipflop.rbt"/>
+  <File Type="BITSTR-NKY" Name="d_flipflop.nky"/>
+  <File Type="BITSTR-BMM" Name="d_flipflop_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="d_flipflop.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="d_flipflop.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/d-flipflop.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="d_flipflop"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

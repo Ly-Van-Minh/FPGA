@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Documents/FPGA/Example 2.2_D-FlipFlop/Example 2.2_D-FlipFlop.srcs/sources_1/new/d-flipflop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity d_flipflop
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Documents/FPGA/Example 2.2_D-FlipFlop/Example 2.2_D-FlipFlop.srcs/sim_1/new/tb_d-flipflop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_d_flipflop
