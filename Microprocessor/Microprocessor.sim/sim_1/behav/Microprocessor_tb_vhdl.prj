@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../Microprocessor.srcs/sources_1/new/Alu.vhd"
+vhdl xil_defaultlib  "../../../Microprocessor.srcs/sources_1/new/General_Purpose_Register.vhd"
+vhdl xil_defaultlib  "../../../Microprocessor.srcs/sources_1/new/Instruction_Decoder.vhd"
+vhdl xil_defaultlib  "../../../Microprocessor.srcs/sources_1/new/Microprocessor.vhd"
+vhdl xil_defaultlib  "../../../Microprocessor.srcs/sources_1/new/Multiplexer_2x1.vhd"
+vhdl xil_defaultlib  "../../../Microprocessor.srcs/sources_1/new/Program_Counter_Register.vhd"
+vhdl xil_defaultlib  "../../../Microprocessor.srcs/sources_1/new/Ram.vhd"
+vhdl xil_defaultlib  "../../../Microprocessor.srcs/sources_1/new/Rom.vhd"
+vhdl xil_defaultlib  "../../../Microprocessor.srcs/sim_1/new/Microprocessor_tb.vhd"
+
+# Do not sort compile order
+nosort
